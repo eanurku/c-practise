@@ -1,0 +1,8 @@
+00:38:31 **** Clean-only build of configuration Debug for project HelloWorld ****
+rm -rf src/HelloWorld.d HelloWorld.exe src/HelloWorld.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/Users/anura/softwares/eclipse-cpp-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/anura/softwares/eclipse-cpp-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\anura\AppData\Local\Microsoft\WindowsApps;;C:\Users\anura\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anura\softwares\eclipse-cpp-2021-12-R-win32-x86_64\eclipse]
+
+00:38:31 **** Clean-only build of configuration Debug for project HelloWorld ****
