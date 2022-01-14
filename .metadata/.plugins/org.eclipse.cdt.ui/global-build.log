@@ -338,3 +338,89 @@ Info: Nothing to build for C_14_CountOneBitsInNumber
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_15_ConditionExpressionUsage.o" "..\\src\\C_15_ConditionExpressionUsage.c" 
 gcc -o C_15_ConditionExpressionUsage.exe "src\\C_15_ConditionExpressionUsage.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+Info: Nothing to build for C_12_StringConcatenation
+Info: Nothing to build for C_13_GetNBitsOfNumber
+Info: Nothing to build for C_14_CountOneBitsInNumber
+Info: Nothing to build for C_15_ConditionExpressionUsage
+15:07:24 **** Rebuild of configuration Debug for project C_16_StringToSignInteger ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_16_StringToSignInteger.o" "..\\src\\C_16_StringToSignInteger.c" 
+gcc -o C_16_StringToSignInteger.exe "src\\C_16_StringToSignInteger.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+Info: Nothing to build for C_12_StringConcatenation
+Info: Nothing to build for C_13_GetNBitsOfNumber
+Info: Nothing to build for C_14_CountOneBitsInNumber
+Info: Nothing to build for C_15_ConditionExpressionUsage
+Info: Nothing to build for C_16_StringToSignInteger
+15:09:27 **** Rebuild of configuration Debug for project C_17_ReverseString ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_17_ReverseString.o" "..\\src\\C_17_ReverseString.c" 
+gcc -o C_17_ReverseString.exe "src\\C_17_ReverseString.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+Info: Nothing to build for C_12_StringConcatenation
+Info: Nothing to build for C_13_GetNBitsOfNumber
+Info: Nothing to build for C_14_CountOneBitsInNumber
+Info: Nothing to build for C_15_ConditionExpressionUsage
+Info: Nothing to build for C_16_StringToSignInteger
+Info: Nothing to build for C_17_ReverseString
+15:11:13 **** Rebuild of configuration Debug for project C_18_ConvertNumberToString ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_18_ConvertNumberToString.o" "..\\src\\C_18_ConvertNumberToString.c" 
+gcc -o C_18_ConvertNumberToString.exe "src\\C_18_ConvertNumberToString.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+Info: Nothing to build for C_12_StringConcatenation
+Info: Nothing to build for C_13_GetNBitsOfNumber
+Info: Nothing to build for C_14_CountOneBitsInNumber
+Info: Nothing to build for C_15_ConditionExpressionUsage
+Info: Nothing to build for C_16_StringToSignInteger
+Info: Nothing to build for C_17_ReverseString
+Info: Nothing to build for C_18_ConvertNumberToString
+15:15:32 **** Rebuild of configuration Debug for project C_19_RemoveTrailingBlanks ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_19_RemoveTrailingBlanks.o" "..\\src\\C_19_RemoveTrailingBlanks.c" 
+gcc -o C_19_RemoveTrailingBlanks.exe "src\\C_19_RemoveTrailingBlanks.o" 

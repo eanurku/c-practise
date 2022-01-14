@@ -4,6 +4,8 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:C_01_HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:C_02_CopyInputToOutput.exe,org.eclipse.launchbar.core.descriptorType.default\:C_03_WordCount.exe,org.eclipse.launchbar.core.descriptorType.default\:C_04_StringLength.exe,org.eclipse.launchbar.core.descriptorType.default\:C_00_CTemplate.exe,org.eclipse.launchbar.core.descriptorType.default\:C_05_LongestInputLine.exe,org.eclipse.launchbar.core.descriptorType.default\:C_06_LeapYear.exe,org.eclipse.launchbar.core.descriptorType.default\:C_07_StringToInteger.exe,org.eclipse.launchbar.core.descriptorType.default\:C_08_ToLowerCase.exe
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:C_00_CTemplate.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:C_00_CTemplate.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:C_01_HelloWorld.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:C_01_HelloWorld.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe/activeLaunchMode=run
