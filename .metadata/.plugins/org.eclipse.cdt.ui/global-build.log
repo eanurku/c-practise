@@ -15,3 +15,326 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HelloWorld.o" "..\\src\\HelloWorld.c" 
 gcc -o HelloWorld.exe "src\\HelloWorld.o" 
 Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_01_HelloWorld
+10:40:27 **** Incremental Build of configuration Debug for project C_01_HelloWorld ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_01_HelloWorld.o" "..\\src\\C_01_HelloWorld.c" 
+..\src\C_01_HelloWorld.c: In function 'main':
+..\src\C_01_HelloWorld.c:17:9: warning: unknown escape sequence: '\c'
+  printf("hello\c");
+         ^~~~~~~~~
+gcc -o C_01_HelloWorld.exe "src\\C_01_HelloWorld.o" 
+Info: Nothing to build for C_01_HelloWorld
+10:52:43 **** Rebuild of configuration Debug for project C_02_CopyInputToOutput ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_02_CopyInputToOutput.o" "..\\src\\C_02_CopyInputToOutput.c" 
+gcc -o C_02_CopyInputToOutput.exe "src\\C_02_CopyInputToOutput.o" 
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+10:53:51 **** Incremental Build of configuration Debug for project C_02_CopyInputToOutput ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_02_CopyInputToOutput.o" "..\\src\\C_02_CopyInputToOutput.c" 
+gcc -o C_02_CopyInputToOutput.exe "src\\C_02_CopyInputToOutput.o" 
+Info: Nothing to build for C_02_CopyInputToOutput
+11:20:38 **** Incremental Build of configuration Debug for project C_01_HelloWorld ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_01_HelloWorld.o" "..\\src\\C_01_HelloWorld.c" 
+gcc -o C_01_HelloWorld.exe "src\\C_01_HelloWorld.o" 
+11:20:39 **** Incremental Build of configuration Debug for project C_02_CopyInputToOutput ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_02_CopyInputToOutput.o" "..\\src\\C_02_CopyInputToOutput.c" 
+gcc -o C_02_CopyInputToOutput.exe "src\\C_02_CopyInputToOutput.o" 
+11:20:39 **** Rebuild of configuration Debug for project C_03_WordCount ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_03_WordCount.o" "..\\src\\C_03_WordCount.c" 
+gcc -o C_03_WordCount.exe "src\\C_03_WordCount.o" 
+11:20:45 **** Incremental Build of configuration Debug for project C_03_WordCount ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_03_WordCount.o" "..\\src\\C_03_WordCount.c" 
+gcc -o C_03_WordCount.exe "src\\C_03_WordCount.o" 
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+12:16:53 **** Incremental Build of configuration Debug for project C_03_WordCount ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_03_WordCount.o" "..\\src\\C_03_WordCount.c" 
+gcc -o C_03_WordCount.exe "src\\C_03_WordCount.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_03_WordCount.exe: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+12:16:53 **** Rebuild of configuration Debug for project C_04_StringLength ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_04_StringLength.o" "..\\src\\C_04_StringLength.c" 
+gcc -o C_04_StringLength.exe "src\\C_04_StringLength.o" 
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+12:19:44 **** Incremental Build of configuration Debug for project C_03_WordCount ****
+Info: Internal Builder is used for build
+gcc -o C_03_WordCount.exe "src\\C_03_WordCount.o" 
+Info: Nothing to build for C_04_StringLength
+12:19:47 **** Incremental Build of configuration Debug for project C_04_StringLength ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_04_StringLength.o" "..\\src\\C_04_StringLength.c" 
+..\src\C_04_StringLength.c: In function 'main':
+..\src\C_04_StringLength.c:18:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int length1=strlen(array);
+              ^~~~~~
+..\src\C_04_StringLength.c:18:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\C_04_StringLength.c:18:14: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\C_04_StringLength.c:13:1:
++#include <string.h>
+ 
+..\src\C_04_StringLength.c:18:14:
+  int length1=strlen(array);
+              ^~~~~~
+..\src\C_04_StringLength.c:19:14: warning: implicit declaration of function 'stringLenth' [-Wimplicit-function-declaration]
+  int length2=stringLenth(array);
+              ^~~~~~~~~~~
+..\src\C_04_StringLength.c:19:6: warning: unused variable 'length2' [-Wunused-variable]
+  int length2=stringLenth(array);
+      ^~~~~~~
+..\src\C_04_StringLength.c:18:6: warning: unused variable 'length1' [-Wunused-variable]
+  int length1=strlen(array);
+      ^~~~~~~
+gcc -o C_04_StringLength.exe "src\\C_04_StringLength.o" 
+src\C_04_StringLength.o: In function `main':
+C:\Users\anura\eanurku\c-practise\C_04_StringLength\Debug/../src/C_04_StringLength.c:19: undefined reference to `stringLenth'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+12:20:55 **** Incremental Build of configuration Debug for project C_04_StringLength ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_04_StringLength.o" "..\\src\\C_04_StringLength.c" 
+..\src\C_04_StringLength.c: In function 'main':
+..\src\C_04_StringLength.c:18:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int length1=strlen(array);
+              ^~~~~~
+..\src\C_04_StringLength.c:18:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\C_04_StringLength.c:18:14: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\C_04_StringLength.c:13:1:
++#include <string.h>
+ 
+..\src\C_04_StringLength.c:18:14:
+  int length1=strlen(array);
+              ^~~~~~
+..\src\C_04_StringLength.c:19:14: warning: implicit declaration of function 'stringLenth' [-Wimplicit-function-declaration]
+  int length2=stringLenth(array);
+              ^~~~~~~~~~~
+gcc -o C_04_StringLength.exe "src\\C_04_StringLength.o" 
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+12:22:01 **** Incremental Build of configuration Debug for project C_04_StringLength ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_04_StringLength.o" "..\\src\\C_04_StringLength.c" 
+..\src\C_04_StringLength.c: In function 'main':
+..\src\C_04_StringLength.c:18:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int length1 = strlen(array);
+                ^~~~~~
+..\src\C_04_StringLength.c:18:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\C_04_StringLength.c:18:16: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\C_04_StringLength.c:13:1:
++#include <string.h>
+ 
+..\src\C_04_StringLength.c:18:16:
+  int length1 = strlen(array);
+                ^~~~~~
+..\src\C_04_StringLength.c:19:16: warning: implicit declaration of function 'stringLenth' [-Wimplicit-function-declaration]
+  int length2 = stringLenth(array);
+                ^~~~~~~~~~~
+gcc -o C_04_StringLength.exe "src\\C_04_StringLength.o" 
+12:36:25 **** Rebuild of configuration Debug for project C_00_CTemplate ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_00_CTemplate.o" "..\\src\\C_00_CTemplate.c" 
+gcc -o C_00_CTemplate.exe "src\\C_00_CTemplate.o" 
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+12:36:26 **** Incremental Build of configuration Debug for project C_03_WordCount ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_03_WordCount.o" "..\\src\\C_03_WordCount.c" 
+gcc -o C_03_WordCount.exe "src\\C_03_WordCount.o" 
+12:36:26 **** Incremental Build of configuration Debug for project C_04_StringLength ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_04_StringLength.o" "..\\src\\C_04_StringLength.c" 
+..\src\C_04_StringLength.c: In function 'main':
+..\src\C_04_StringLength.c:18:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int length1 = strlen(array);
+                ^~~~~~
+..\src\C_04_StringLength.c:18:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\C_04_StringLength.c:18:16: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\C_04_StringLength.c:13:1:
++#include <string.h>
+ 
+..\src\C_04_StringLength.c:18:16:
+  int length1 = strlen(array);
+                ^~~~~~
+..\src\C_04_StringLength.c:19:16: warning: implicit declaration of function 'stringLenth' [-Wimplicit-function-declaration]
+  int length2 = stringLenth(array);
+                ^~~~~~~~~~~
+gcc -o C_04_StringLength.exe "src\\C_04_StringLength.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+13:44:59 **** Rebuild of configuration Debug for project C_05_LongestInputLine ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_05_LongestInputLine.o" "..\\src\\C_05_LongestInputLine.c" 
+gcc -o C_05_LongestInputLine.exe "src\\C_05_LongestInputLine.o" 
+Info: Nothing to build for C_05_LongestInputLine
+13:46:21 **** Incremental Build of configuration Debug for project C_00_CTemplate ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_00_CTemplate.o" "..\\src\\C_00_CTemplate.c" 
+gcc -o C_00_CTemplate.exe "src\\C_00_CTemplate.o" 
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+13:46:22 **** Rebuild of configuration Debug for project C_06_LeapYear ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_06_LeapYear.o" "..\\src\\C_06_LeapYear.c" 
+gcc -o C_06_LeapYear.exe "src\\C_06_LeapYear.o" 
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+13:47:44 **** Rebuild of configuration Debug for project C_07_StringToInteger ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_07_StringToInteger.o" "..\\src\\C_07_StringToInteger.c" 
+gcc -o C_07_StringToInteger.exe "src\\C_07_StringToInteger.o" 
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+13:48:43 **** Rebuild of configuration Debug for project C_08_ToLowerCase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_08_ToLowerCase.o" "..\\src\\C_08_ToLowerCase.c" 
+gcc -o C_08_ToLowerCase.exe "src\\C_08_ToLowerCase.o" 
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+13:49:29 **** Rebuild of configuration Debug for project C_09_IsDigit ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_09_IsDigit.o" "..\\src\\C_09_IsDigit.c" 
+gcc -o C_09_IsDigit.exe "src\\C_09_IsDigit.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+13:51:11 **** Rebuild of configuration Debug for project C_10_RandomNumberGenerator ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_10_RandomNumberGenerator.o" "..\\src\\C_10_RandomNumberGenerator.c" 
+gcc -o C_10_RandomNumberGenerator.exe "src\\C_10_RandomNumberGenerator.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+13:52:35 **** Rebuild of configuration Debug for project C_11_RemoveACharaterFromString ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_11_RemoveACharaterFromString.o" "..\\src\\C_11_RemoveACharaterFromString.c" 
+gcc -o C_11_RemoveACharaterFromString.exe "src\\C_11_RemoveACharaterFromString.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+13:53:19 **** Rebuild of configuration Debug for project C_12_StringConcatenation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_12_StringConcatenation.o" "..\\src\\C_12_StringConcatenation.c" 
+gcc -o C_12_StringConcatenation.exe "src\\C_12_StringConcatenation.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+Info: Nothing to build for C_12_StringConcatenation
+13:54:51 **** Rebuild of configuration Debug for project C_13_GetNBitsOfNumber ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_13_GetNBitsOfNumber.o" "..\\src\\C_13_GetNBitsOfNumber.c" 
+gcc -o C_13_GetNBitsOfNumber.exe "src\\C_13_GetNBitsOfNumber.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+Info: Nothing to build for C_12_StringConcatenation
+Info: Nothing to build for C_13_GetNBitsOfNumber
+13:55:50 **** Rebuild of configuration Debug for project C_14_CountOneBitsInNumber ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_14_CountOneBitsInNumber.o" "..\\src\\C_14_CountOneBitsInNumber.c" 
+gcc -o C_14_CountOneBitsInNumber.exe "src\\C_14_CountOneBitsInNumber.o" 
+Info: Nothing to build for C_00_CTemplate
+Info: Nothing to build for C_01_HelloWorld
+Info: Nothing to build for C_02_CopyInputToOutput
+Info: Nothing to build for C_03_WordCount
+Info: Nothing to build for C_04_StringLength
+Info: Nothing to build for C_05_LongestInputLine
+Info: Nothing to build for C_06_LeapYear
+Info: Nothing to build for C_07_StringToInteger
+Info: Nothing to build for C_08_ToLowerCase
+Info: Nothing to build for C_09_IsDigit
+Info: Nothing to build for C_10_RandomNumberGenerator
+Info: Nothing to build for C_11_RemoveACharaterFromString
+Info: Nothing to build for C_12_StringConcatenation
+Info: Nothing to build for C_13_GetNBitsOfNumber
+Info: Nothing to build for C_14_CountOneBitsInNumber
+13:56:52 **** Rebuild of configuration Debug for project C_15_ConditionExpressionUsage ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C_15_ConditionExpressionUsage.o" "..\\src\\C_15_ConditionExpressionUsage.c" 
+gcc -o C_15_ConditionExpressionUsage.exe "src\\C_15_ConditionExpressionUsage.o" 
