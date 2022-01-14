@@ -1,4 +1,7 @@
-00:38:31 **** Clean-only build of configuration Debug for project HelloWorld ****
+10:36:09 **** Rebuild of configuration Debug for project HelloWorld ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HelloWorld.o" "..\\src\\HelloWorld.c" 
+gcc -o HelloWorld.exe "src\\HelloWorld.o" 
 
-00:38:31 Build Finished. 0 errors, 0 warnings. (took 5ms)
+10:36:09 Build Finished. 0 errors, 0 warnings. (took 444ms)
 

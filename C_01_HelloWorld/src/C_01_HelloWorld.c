@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : HelloWorld.c
+ Name        : C_01_HelloWorld.c
  Author      : anurag
  Version     :
  Copyright   : Your copyright notice
@@ -11,11 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-
-	int num=10;
-	printf("i just love learning and experimenting");
-
-	printf("%d",num);
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
