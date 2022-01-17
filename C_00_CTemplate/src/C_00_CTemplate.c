@@ -9,14 +9,16 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>//EXIT_SUCCESS,EXIT_FAILURE
+#include <stdlib.h>//EXIT_SUCCESS,EXIT_FAILURE,malloc()
 #include <limits.h>//INT_MAX,INT_MIN
 #include <float.h>
-#include <ctype.h> //lower(),isDigit()
+#include <ctype.h> //lower(),isDigit(),isspace(),isalnum(),isdigit()
 #include <math.h>
-
+#include <string.h> //strlen(),strcmp(),strstr(),strindex()
+#include <stddef.h> //size_t ,ptrdiff_t
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+
+
 	return EXIT_SUCCESS;
 }

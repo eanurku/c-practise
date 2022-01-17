@@ -1,4 +1,7 @@
 eclipse.preferences.version=1
+org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.cdt.ui.text.templates.custom=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="org.eclipse.cdt.ui.text.templates.c" deleted\="false" description\="" enabled\="true" name\="anurag">\#include &lt;stdio.h&gt;&\#13;\r\n\#include &lt;stdlib.h&gt;//EXIT_SUCCESS,EXIT_FAILURE,malloc()&\#13;\r\n\#include &lt;limits.h&gt;//INT_MAX,INT_MIN&\#13;\r\n\#include &lt;float.h&gt;&\#13;\r\n\#include &lt;ctype.h&gt; //lower(),isDigit(),isspace(),isalnum(),isdigit()&\#13;\r\n\#include &lt;math.h&gt;&\#13;\r\n\#include &lt;string.h&gt; //strlen(),strcmp(),strstr(),strindex()&\#13;\r\n\#include &lt;stddef.h&gt; //size_t ,ptrdiff_t&\#13;\r\n&\#13;\r\nint main(void) {&\#13;\r\n&\#13;\r\n&\#13;\r\n\treturn EXIT_SUCCESS;&\#13;\r\n}&\#13;\r\n</template></templates>
+sourceHoverBackgroundColor=255,255,225
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
