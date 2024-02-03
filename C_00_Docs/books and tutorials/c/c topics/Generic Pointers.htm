@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>Generic Pointers</title><meta name="GENERATOR" content="Modular DocBook HTML Stylesheet Version 1.77+"><link rel="HOME" title="Learning GNU C" href="http://www.nongnu.org/c-prog-book/online/index.html"><link rel="UP" title="Pointers" href="http://www.nongnu.org/c-prog-book/online/c620.html"><link rel="PREVIOUS" title="Pointer Arithmetic" href="http://www.nongnu.org/c-prog-book/online/x652.html"><link rel="NEXT" title="Structured Data Types" href="http://www.nongnu.org/c-prog-book/online/c670.html"></head><body class="SECT1" alink="#0000FF" bgcolor="#FFFFFF" link="#0000FF" text="#000000" vlink="#840084"><div class="NAVHEADER"><table summary="Header navigation table" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><th colspan="3" align="center">Learning GNU C</th></tr><tr><td align="left" valign="bottom" width="10%"><a href="http://www.nongnu.org/c-prog-book/online/x652.html" accesskey="P">Prev</a></td><td align="center" valign="bottom" width="80%">Chapter 5. Pointers</td><td align="right" valign="bottom" width="10%"><a href="http://www.nongnu.org/c-prog-book/online/c670.html" accesskey="N">Next</a></td></tr></tbody></table><hr align="LEFT" width="100%"></div><div class="SECT1"><h1 class="SECT1"><a name="AEN658"></a>5.5. Generic Pointers</h1><p>When a variable is declared as being a pointer to type
+<b class="COMMAND">void</b> it is known as a <i class="FIRSTTERM">generic
+pointer</i>.  Since you cannot have a variable of type
+<b class="COMMAND">void</b>, the pointer will not point to any data and
+therefore cannot be dereferenced.  It is still a pointer though, to
+use it you just have to cast it to another kind of pointer first.
+Hence the term <span class="emphasis"><i class="EMPHASIS">Generic pointer</i></span>.</p><p>This is very useful when you want a pointer to point to data
+of different types at different times.</p><p>Here is some code using a void pointer:
+    </p><div class="EXAMPLE"><a name="AEN667"></a><p><b>Example 5-3. generic_pointer.c</b></p><pre class="PROGRAMLISTING">int
+main()
+{
+  int i;
+  char c;
+  void *the_data;
+
+  i = 6;
+  c = 'a';
+
+  the_data = &amp;i;
+  printf("the_data points to the integer value %d\n", *(int*) the_data);
+
+  the_data = &amp;c;
+  printf("the_data now points to the character %c\n", *(char*) the_data);
+
+  return 0;
+}
+     </pre></div>
+   <p></p></div><div class="NAVFOOTER"><hr align="LEFT" width="100%"><table summary="Footer navigation table" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="left" valign="top" width="33%"><a href="http://www.nongnu.org/c-prog-book/online/x652.html" accesskey="P">Prev</a></td><td align="center" valign="top" width="34%"><a href="http://www.nongnu.org/c-prog-book/online/index.html" accesskey="H">Home</a></td><td align="right" valign="top" width="33%"><a href="http://www.nongnu.org/c-prog-book/online/c670.html" accesskey="N">Next</a></td></tr><tr><td align="left" valign="top" width="33%">Pointer Arithmetic</td><td align="center" valign="top" width="34%"><a href="http://www.nongnu.org/c-prog-book/online/c620.html" accesskey="U">Up</a></td><td align="right" valign="top" width="33%">Structured Data Types</td></tr></tbody></table></div></body></html>

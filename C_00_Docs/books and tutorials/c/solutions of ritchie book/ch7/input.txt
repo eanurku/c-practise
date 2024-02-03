@@ -1,0 +1,108 @@
+#include<stdio.h>// Formatted console and file input/output operations
+#include<conio.h>// Unformatted console i/o operations
+#include<stdlib.h>//for Utility functions like malloc,random,arc & argv as  command line arguments etc.
+#include<string.h>//for String functions like strlen,strcmp etc.
+#include<ctype.h>/ character class test/conversion functions like isalnum,tolower etc.
+#include<stdarg.h>//anuragfor Variable arguments uses in function by va_list,va_start,va_arg etc.
+#include<time.h>//
+#include<math.h>//
+
+anurag jnkjnn
+/*
+#include "../library/anuragalgorithms.c"
+*/
+void print(char *format,...)
+{  fdiwd
+wdewdewdew
+we
+dwed
+wedwe
+dwdwe
+d
+w
+d
+w
+dw
+e
+dwe
+d
+ew
+d
+we
+d
+we
+dew
+
+
+ewd
+we
+dew
+d
+w
+dew
+
+dew
+d
+wed
+w
+d
+w
+dw
+d
+ew
+
+w
+eed
+ew
+d
+e
+ew
+d
+ew
+d
+ew
+dw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wdwdwdew
+
+de
+wd
+
+w
+d
+wd
+w
+
+w
+d
+ew
+dw
+ed
+we
