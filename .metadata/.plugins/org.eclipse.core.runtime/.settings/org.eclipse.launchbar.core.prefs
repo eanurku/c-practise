@@ -1,10 +1,11 @@
 LaunchTargetManager/configs/01_HelloWorld.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/C_00_CTemplate.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/C_ZEXP.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/HelloWorld.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:01_HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:02_PlayingWithCharacters.exe,org.eclipse.launchbar.core.descriptorType.default\:C_01_HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:C_35_NextPermutation.exe,org.eclipse.launchbar.core.descriptorType.default\:C_34_Getpermutations.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe,org.eclipse.launchbar.core.descriptorType.default\:09_NextPermutation.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe (1),org.eclipse.launchbar.core.descriptorType.default\:08_GetPermutations.exe,org.eclipse.launchbar.core.descriptorType.default\:C_10_RandomNumberGenerator.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:02_PlayingWithCharacters.exe,org.eclipse.launchbar.core.descriptorType.default\:C_01_HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:C_35_NextPermutation.exe,org.eclipse.launchbar.core.descriptorType.default\:C_34_Getpermutations.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe,org.eclipse.launchbar.core.descriptorType.default\:09_NextPermutation.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe (1),org.eclipse.launchbar.core.descriptorType.default\:08_GetPermutations.exe,org.eclipse.launchbar.core.descriptorType.default\:C_10_RandomNumberGenerator.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe (2),org.eclipse.launchbar.core.descriptorType.default\:C_ZEXP.exe,org.eclipse.launchbar.core.descriptorType.default\:01_HelloWorld.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:01_HelloWorld.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:01_HelloWorld.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -13,5 +14,6 @@ org.eclipse.launchbar.core.descriptorType.default\:C_00_CTemplate.exe/activeLaun
 org.eclipse.launchbar.core.descriptorType.default\:C_00_CTemplate.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:C_01_HelloWorld.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:C_01_HelloWorld.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:C_ZEXP.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -9,8 +9,8 @@
 
 int main(){
 
-	char str[100];
-	scanf("%[^\n]%*c",str);
+	char str[100]={'\0'};
+	scanf("%*[^\n]s%*c",str);
 	printf("Hello, World!\n");
 	printf("%s",str);
 }
