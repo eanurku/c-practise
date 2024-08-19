@@ -21,7 +21,7 @@ int main(void) {
 
 	int i=strtol(str,&endptr,10);
 	printf("\ni=%d",i);
-	printf("%s",endptr);
+	printf("\n%s",endptr);
 
 
 

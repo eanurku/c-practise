@@ -6,8 +6,8 @@
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
  ============================================================================
- */
 
+ */
 #include <stdio.h>//input/output functions
 #include <stdlib.h>//EXIT_SUCCESS,EXIT_FAILURE,malloc(),atof(),atoi()
 #include <limits.h>//INT_MAX,INT_MIN
@@ -21,6 +21,7 @@
 #include <signal.h> //signal function
 
 int main(void) {
+
 
 
 
